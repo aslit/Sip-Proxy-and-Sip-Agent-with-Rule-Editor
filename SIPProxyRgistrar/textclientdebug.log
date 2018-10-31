@@ -1,0 +1,22 @@
+DEBUG - BUILD TIMESTAMP = null
+DEBUG - Config Propeties = {}{gov.nist.javax.sip.TRACE_LEVEL=32, javax.sip.AUTOMATIC_DIALOG_SUPPORT=OFF, javax.sip.STACK_NAME=SIP Client 1, gov.nist.javax.sip.SERVER_LOG=textclient.txt, javax.sip.IP_ADDRESS=192.168.2.5, gov.nist.javax.sip.DEBUG_LOG=textclientdebug.log}
+DEBUG - gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:236) [Here are the stack configuration properties 
+{}{gov.nist.javax.sip.TRACE_LEVEL=32, javax.sip.AUTOMATIC_DIALOG_SUPPORT=OFF, javax.sip.STACK_NAME=SIP Client 1, gov.nist.javax.sip.SERVER_LOG=textclient.txt, javax.sip.IP_ADDRESS=192.168.2.5, gov.nist.javax.sip.DEBUG_LOG=textclientdebug.log}
+]
+DEBUG - gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:238) [ ]]>]
+DEBUG - gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:239) [</debug>]
+DEBUG - gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:240) [<description
+ logDescription="SIP Client 1"
+ name="192.168.2.5" />
+]
+DEBUG - gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:242) [<debug>]
+DEBUG - gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:243) [<![CDATA[ ]
+WARN - using default tls security policy
+DEBUG - gov.nist.javax.sip.SipStackImpl.<init>(SipStackImpl.java:1185) [created Sip stack. Properties = {}{gov.nist.javax.sip.TRACE_LEVEL=32, javax.sip.AUTOMATIC_DIALOG_SUPPORT=OFF, javax.sip.STACK_NAME=SIP Client 1, gov.nist.javax.sip.SERVER_LOG=textclient.txt, javax.sip.IP_ADDRESS=192.168.2.5, gov.nist.javax.sip.DEBUG_LOG=textclientdebug.log}]
+INFO - the sip stack timer gov.nist.javax.sip.stack.timers.DefaultSipTimer has been started
+DEBUG - gov.nist.javax.sip.SipStackImpl.createListeningPoint(SipStackImpl.java:1336) [createListeningPoint : address = 192.168.2.5 port = 5061 transport = udp]
+DEBUG - gov.nist.javax.sip.stack.UDPMessageProcessor.<init>(UDPMessageProcessor.java:128) [Max Message size is 65536]
+DEBUG - gov.nist.javax.sip.SipStackImpl.createListeningPoint(SipStackImpl.java:1372) [Created Message Processor: 192.168.2.5 port = 5061 transport = udp]
+DEBUG - gov.nist.javax.sip.stack.MessageProcessor.setListeningPoint(MessageProcessor.java:203) [setListeningPointgov.nist.javax.sip.stack.UDPMessageProcessor@e25b2fe listeningPoint = gov.nist.javax.sip.ListeningPointImpl@754ba872]
+DEBUG - gov.nist.javax.sip.SipStackImpl.createSipProvider(SipStackImpl.java:1404) [createSipProvider: gov.nist.javax.sip.ListeningPointImpl@754ba872]
+DEBUG - gov.nist.javax.sip.SipProviderImpl.addSipListener(SipProviderImpl.java:237) [add SipListener proxy.sip.SipLayer@14bf9759]

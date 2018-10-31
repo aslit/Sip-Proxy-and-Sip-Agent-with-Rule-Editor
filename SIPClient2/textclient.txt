@@ -1,0 +1,81 @@
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= 192.168.2.5
+javax.sip.STACK_NAME= SIP Client 1
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<description
+ logDescription="SIP Client 1"
+ name="SIP Client 1"
+ auxInfo="null"/>
+ 
+<message
+from="192.168.2.5:5082" 
+to="192.168.2.5:5061" 
+time="1433093098958"
+isSender="true" 
+transactionId="z9hg4bk-323030-f2e88a618ed33beed415b1de01c49518" 
+callId="e8a9866dbff32092f5413d2ec84f7ec8@192.168.2.5" 
+firstLine="REGISTER sip:192.168.2.5:5061 SIP/2.0" 
+>
+<![CDATA[REGISTER sip:192.168.2.5:5061 SIP/2.0
+Call-ID: e8a9866dbff32092f5413d2ec84f7ec8@192.168.2.5
+CSeq: 1 REGISTER
+From: <sip:user1@sipproxy.com>;tag=56438
+To: <sip:user1@sipproxy.com>;tag=4321
+Via: SIP/2.0/UDP 192.168.2.5:5082;branch=z9hG4bK-323030-f2e88a618ed33beed415b1de01c49518
+Max-Forwards: 70
+Contact: <sip:user1@192.168.2.5:5082>
+Expires: 60000
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.2.5:5082" 
+to="192.168.2.5:5061" 
+time="1433093099466"
+isSender="true" 
+transactionId="z9hg4bk-323030-f2e88a618ed33beed415b1de01c49518" 
+callId="e8a9866dbff32092f5413d2ec84f7ec8@192.168.2.5" 
+firstLine="REGISTER sip:192.168.2.5:5061 SIP/2.0" 
+>
+<![CDATA[REGISTER sip:192.168.2.5:5061 SIP/2.0
+Call-ID: e8a9866dbff32092f5413d2ec84f7ec8@192.168.2.5
+CSeq: 1 REGISTER
+From: <sip:user1@sipproxy.com>;tag=56438
+To: <sip:user1@sipproxy.com>;tag=4321
+Via: SIP/2.0/UDP 192.168.2.5:5082;branch=z9hG4bK-323030-f2e88a618ed33beed415b1de01c49518
+Max-Forwards: 70
+Contact: <sip:user1@192.168.2.5:5082>
+Expires: 60000
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.2.5:5082" 
+to="192.168.2.5:5061" 
+time="1433093100471"
+isSender="true" 
+transactionId="z9hg4bk-323030-f2e88a618ed33beed415b1de01c49518" 
+callId="e8a9866dbff32092f5413d2ec84f7ec8@192.168.2.5" 
+firstLine="REGISTER sip:192.168.2.5:5061 SIP/2.0" 
+>
+<![CDATA[REGISTER sip:192.168.2.5:5061 SIP/2.0
+Call-ID: e8a9866dbff32092f5413d2ec84f7ec8@192.168.2.5
+CSeq: 1 REGISTER
+From: <sip:user1@sipproxy.com>;tag=56438
+To: <sip:user1@sipproxy.com>;tag=4321
+Via: SIP/2.0/UDP 192.168.2.5:5082;branch=z9hG4bK-323030-f2e88a618ed33beed415b1de01c49518
+Max-Forwards: 70
+Contact: <sip:user1@192.168.2.5:5082>
+Expires: 60000
+Content-Length: 0
+
+]]>
+</message>
+
